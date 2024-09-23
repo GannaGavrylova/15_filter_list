@@ -1,0 +1,45 @@
+.userList_container {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7d7f7;
+  height: 100vh;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.2), 0px 16px 24px rgba(0, 0, 0, 0.2);
+}
+
+.userList_container > h1 {
+  margin-left: 40px;
+  font-size: 72px;
+  color: #1f0ca1;
+  text-shadow: 1px 1px 3px #eab2b2, 2px 2px 3px #420eed, 3px 3px 3px #12dfdc; /* Тени для создания 3D-эффекта */
+}
+.userList_container > input {
+  width: 200px;
+  padding: 5px;
+  margin-left: 40px;
+  border-radius: 8px;
+  border: 2px solid #ede9f0;
+}
+.userList_container > input:hover {
+  border: 2px solid rgba(0, 123, 255, 0.2);
+  box-shadow: 1px 0px 22px 12px rgba(0, 123, 255, 0.05);
+}
+.userList_container > input:focus {
+  outline: none;
+  border: 2px solid rgba(20, 101, 11, 0.2);
+  box-shadow: 1px 0px 22px 12px rgba(196, 234, 139, 0.1);
+}
+.userList_container > ul > li {
+  list-style-type: none;
+  border: 2px solid #663399;
+  width: 200px;
+  padding: 5px;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 5px;
+  color: #663399;
+  font-weight: 600;
+  text-align: center;
+}
